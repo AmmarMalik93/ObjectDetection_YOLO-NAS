@@ -1,5 +1,11 @@
 # Atlantics vs Humpback salmon fish detection using YOLO-NAS
 
+## Scripts
+```json_to_yolo.py``` is the script to process the ```annotation.json``` and convert COCO annotation format to YOLO annotation format.
+
+```training.ipynb``` is the script for the training procedure.
+
+```prediction.ipynb``` is the script for the prediction on validation data.
 ## Dataset
 There were two directories named **humpback** and **atlantic** containing images.
 1) **Humpback** -- 961 images
